@@ -28,7 +28,7 @@ export default {
   },
 
   created () {
-    fetch("https://demo.davidxifeng.now.sh/api/test")
+    fetch("https://davidfeng.now.sh/api/test")
     .then(response => response.json())
     .then(json => {
       this.products = json
