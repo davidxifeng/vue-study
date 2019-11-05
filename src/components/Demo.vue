@@ -28,7 +28,7 @@ export default {
   },
 
   created () {
-    fetch("https://davidfeng.now.sh/api/test")
+    fetch("https://api.myjson.com/bins/twgy8")
     .then(response => response.json())
     .then(json => {
       this.products = json
@@ -41,6 +41,9 @@ export default {
         return sum + product.quantity;
       }, 0);
     }
+  },
+
+  methods: {
   },
 
   props: {
