@@ -1,0 +1,16 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "sqlite & gitlab",
+  "main": "main.js",
+  "dependencies": {
+    "gitlab": "^12.0.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Feng",
+  "license": "MIT"
+}
