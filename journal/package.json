@@ -2,12 +2,15 @@
   "name": "journal",
   "version": "1.0.0",
   "description": "sqlite & gitlab",
-  "main": "main.ts",
+  "main": "dist/main.js",
   "dependencies": {
     "gitlab": "^12.0.0",
+    "sequelize": "^5.21.2",
     "sqlite3": "^4.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
