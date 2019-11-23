@@ -103,7 +103,7 @@ async function gitlab_test() {
 
   try {
       let currPage = 1;
-      let totalPages = 0;
+      let totalPages;
       do {
           let allIssues = await api.Issues.all({
               projectId: cfg.projectId,
